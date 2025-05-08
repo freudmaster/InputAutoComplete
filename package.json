@@ -1,5 +1,5 @@
 {
-  "name": "inputautocomplete",
+  "name": "combo-input-autocomplete",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,10 +8,8 @@
     "build": "rollup -c",
     "prepare": "npm run build"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^28.0.3",
     "@rollup/plugin-node-resolve": "^16.0.1",
@@ -21,6 +19,16 @@
     "rollup-plugin-typescript2": "^0.36.0",
     "typescript": "^5.8.3"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freudmaster/InputAutoComplete.git"
+  },
+  "bugs": {
+    "url": "https://github.com/freudmaster/InputAutoComplete/issues"
+  },
+  "homepage": "https://www.npmjs.com/package/combo-input-autocomplete",
+  "author": "Freud MAGUENDJI <fmaguendji@gmail.com>",
+  "keywords": ["chakra-ui", "react", "ui", "components"],
   "dependencies": {
     "@chakra-ui/react": "^3.17.0",
     "@emotion/react": "^11.14.0",
