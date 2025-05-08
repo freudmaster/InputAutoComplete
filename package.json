@@ -10,6 +10,9 @@
   },
   "license": "ISC",
   "type": "module",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/freudmaster"
+  },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^28.0.3",
     "@rollup/plugin-node-resolve": "^16.0.1",
@@ -28,12 +31,7 @@
   },
   "homepage": "https://www.npmjs.com/package/combo-input-autocomplete",
   "author": "Freud MAGUENDJI <fmaguendji@gmail.com>",
-  "keywords": [
-    "chakra-ui",
-    "react",
-    "ui",
-    "components"
-  ],
+  "keywords": ["chakra-ui", "react", "ui", "components"],
   "dependencies": {
     "@chakra-ui/react": "^3.17.0",
     "@emotion/react": "^11.14.0",
