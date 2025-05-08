@@ -1,6 +1,6 @@
 {
   "name": "combo-input-autocomplete",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -28,7 +28,12 @@
   },
   "homepage": "https://www.npmjs.com/package/combo-input-autocomplete",
   "author": "Freud MAGUENDJI <fmaguendji@gmail.com>",
-  "keywords": ["chakra-ui", "react", "ui", "components"],
+  "keywords": [
+    "chakra-ui",
+    "react",
+    "ui",
+    "components"
+  ],
   "dependencies": {
     "@chakra-ui/react": "^3.17.0",
     "@emotion/react": "^11.14.0",
